@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Anna Kulikova"
+  },
+  "text": {
+    "more": "",
+    "intro": "Граф достаточно хорошо интерпретируется:\n\nкрасные узлы — мои одноклассники\nсиние узлы — друзья из старших классов, выпустившие раньше\nжелтые узлы — друзья из младших классов школы, которые до сих пора учатся \nоранжевые узлы — друзья из Вышки\nрозовые узлы — друзья из лагеря\nбирюзовые узлы — те, с кем я познакомилась на отдыхе в 2016 году\nзеленые узлы — друзья моего брата\nфиолетовые узлы — друзья, с которыми я познакомилась на отдыхе в 2012 году",
+    "title": "Friends Graph"
+  },
+  "legend": {
+    "edgeLabel": "Relationship",
+    "colorLabel": "Group",
+    "nodeLabel": "A Friend\u0027s name"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
